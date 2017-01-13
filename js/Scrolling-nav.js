@@ -12,6 +12,7 @@ $(window).scroll(function () {
     }
 });
 */
+/*
 
 $(window).on("load",function() {
     function fade() {
@@ -58,3 +59,5 @@ $(function () {
         event.preventDefault();
     });
 });
+
+    */
