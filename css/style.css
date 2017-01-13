@@ -15,7 +15,7 @@ body {
 
 h1.home{
     margin-top: 25%;
-    text-shadow: 1px 1px #a5a5a5;
+    text-shadow: 3px 3px black;
     z-index: +10;
 
 }
@@ -370,7 +370,7 @@ Image placeholders: placemi.com
             blink-caret .75s step-end infinite;
     margin-left: 1%;
     padding-left: 1%;
-    color: #00547c;
+    color: white;
 }
 
 /* The typing effect */
@@ -433,7 +433,7 @@ h1{
     margin-left: 50%;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
     .effective {
         display: none;
     }
