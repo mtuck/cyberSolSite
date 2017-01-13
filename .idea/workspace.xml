@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b242259-3536-4583-8f5d-2cc436cd6c0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/stockvault-boxes-in-a-warehouse138970.jpg" afterPath="$PROJECT_DIR$/img/stockvault-boxes-in-a-warehouse138970.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -322,12 +322,12 @@
       <workItem from="1484067976683" duration="47544000" />
       <workItem from="1484229080422" duration="8950000" />
       <workItem from="1484318557423" duration="7152000" />
-      <workItem from="1484331162522" duration="915000" />
+      <workItem from="1484331162522" duration="1136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64561000" />
+    <option name="totallyTimeSpent" value="64782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-7" width="1616" height="876" extended-state="0" />
