@@ -191,12 +191,12 @@ body > .container {
 code {
     font-size: 80%;
 }
+.nav-link, .nav-item{
+    font-color: white;
+}
 
-.navbar-dark{
-    background:transparent;
-    background-image:none;
-    border-color:transparent;
-    box-shadow:none;
+.navbar-light{
+    background-color: #ed7425;
 
 
 }
