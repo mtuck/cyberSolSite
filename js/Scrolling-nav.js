@@ -23,7 +23,7 @@ $(window).on("load",function() {
             var objectTop = $(this).offset().top;
             var windowBottom = $(window).scrollTop() + $(window).innerHeight();
 
-            if ( objectTop + 500 < windowBottom ) {
+            if ( objectTop + 100 < windowBottom ) {
                 if ( objectTop < windowBottom - animation_height  ) {
 
                     $(this).css( {
