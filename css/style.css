@@ -1,0 +1,437 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #E3F2FD;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.card-title, .card-text{
+    color: black;
+}
+
+h1.home{
+    margin-top: 25%;
+    text-shadow: 3px 2px black;
+    z-index: +10;
+
+}
+
+
+
+.footer {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+
+    background-color: white;
+}
+
+html, body{
+    height: 100%;
+
+}
+
+
+.abs{
+    position: absolute;
+    padding-left: 1%;
+    margin-top: 25%;
+    color: white;
+
+
+}
+
+#ourTeam .container h1, #aboutUs .container h1{
+    font-color: black;
+}
+
+
+img.main-content:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+}
+
+img.main-content {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: .5s ease-in-out;
+}
+
+
+.main-content{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-inner{
+    padding-top: 0px;
+}
+
+.about-card{
+    max-height: 200px;
+    margin: auto;
+}
+
+.first-slide{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.6;
+    over-flow: hidden;
+    z-index: -10;
+
+}
+
+#services{
+
+    color: black;
+}
+
+
+
+.service{
+    border: 2px darkblue solid;
+
+}
+
+.content-section{
+    margin:0;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    min-height: 100%;
+}
+
+#ourClients{
+
+   /* background-color:  #90CAF9;*/
+}
+
+.up{
+    z-index: 2;
+}
+
+.background-image{
+    overflow: hidden;
+
+    padding: 0;
+    position: absolute;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+nav{
+    z-index: +100;
+    position: absolute;
+}
+
+#home{
+    height: 100%;
+
+
+}
+
+.full-width {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+    z-index: +1;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.navbar-dark{
+    background:transparent;
+    background-image:none;
+    border-color:transparent;
+    box-shadow:none;
+
+
+}
+
+
+
+.navbar-brand{
+    padding-top: 10px;
+    max-width: 200px;
+
+}
+
+.img-circle {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+
+.panel-heading{
+    border-radius: 0.15rem;
+}
+
+#ourTeam{
+
+    color: black;
+}
+
+#ourTeam h1, #aboutUs h1{
+    color: black;
+}
+
+.panel-card{
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.15rem;
+
+}
+
+
+
+.panel-card-img{
+    margin: 1em;
+    border-radius: 0.15rem;
+}
+
+
+.panel-body{
+    padding: 1em;
+
+}
+
+.panel-header{
+    color: #0D47A1;
+}
+
+
+/* Panel card */
+
+/*
+Code snippet by maridlcrmn for Bootsnipp.com
+Follow me on Twitter @maridlcrmn
+Image credits: unsplash.com, uifaces.com/authorized
+Image placeholders: placemi.com
+*/
+
+
+#t-cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #345;
+}
+
+/********************************/
+/*          Panel cards         */
+/********************************/
+.panel.panel-card {
+    position: relative;
+    height: 241px;
+    border: none;
+    overflow: hidden;
+}
+.panel.panel-card .panel-heading {
+    position: relative;
+    z-index: 2;
+    height: 120px;
+    border-bottom-color: #fff;
+    overflow: hidden;
+
+    -webkit-transition: height 600ms ease-in-out;
+    transition: height 600ms ease-in-out;
+}
+.panel.panel-card .panel-heading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 120%;
+
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+.panel.panel-card .panel-heading button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 3;
+}
+.panel.panel-card .panel-figure {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 0 3px #fff;
+    box-shadow: 0 0 0 3px #fff;
+
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+
+    -webkit-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+}
+
+
+
+.panel.panel-card .panel-body {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    -webkit-transition: padding 400ms ease-in-out;
+    transition: padding 400ms ease-in-out;
+}
+
+.panel.panel-card .panel-thumbnails {
+    padding: 0 15px 20px;
+}
+.panel-thumbnails .thumbnail {
+    width: 60px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+.panel-col{
+
+    padding: 5px;
+
+}
+
+
+
+
+/* Text Animation */
+#home h1 {
+
+    font-size: 2em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 25% auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.quote{
+    text-shadow: 2px 2px black;
+}
+
+
+#home .btn {
+    text-shadow: none;
+}
+
+@media (min-width: 576px) {
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        font-size: 30px;
+    }
+    .carousel-control .icon-prev {
+        margin-left: -15px;
+    }
+    .carousel-control .icon-next {
+        margin-right: -15px;
+    }
+    .carousel-caption {
+
+        padding-bottom: 30px;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+}
+
+.carousel{
+    height: 100%;
+}
+
+h1{
+    color: white;
+}
+
+.btn-outline-danger{
+    text-shadow: 2px 2px black;
+}
+
+.abt-btn{
+    margin-left: 50%;
+}
+
+@media (max-width: 1500px) {
+    .effective {
+        display: none;
+    }
+}
+
+
