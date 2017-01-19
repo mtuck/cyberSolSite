@@ -134,7 +134,7 @@ img.main-content {
 
     padding: 0;
     position: absolute;
-    opacity: 0.7;
+
     height: 100%;
     width: 100%;
     z-index: -2;
@@ -195,7 +195,7 @@ code {
     font-color: white;
 }
 
-.navbar-light{
+.navbar-light, .navbar-dark{
     background-color: #ed7425;
 
 
