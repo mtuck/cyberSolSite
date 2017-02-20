@@ -188,6 +188,38 @@ body > .container {
     padding-left: 15px;
 }
 
+.carousel-item {
+    max-height: 500px;
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #345;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #345;
+    top: 0;
+    width: 600px;
+}
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
 code {
     font-size: 80%;
 }
@@ -196,15 +228,23 @@ code {
 }
 
 .navbar-light, .navbar-dark{
-    background-color: #ed7425;
-
+    background: #ed7425; /* Old browsers */
+    background: -moz-linear-gradient(top, #ed7425 0%, #ea894d 66%, #ea894d 66%, #ea894d 67%, #ea894d 67%, #ea894d 67%, #ea894d 67%, #e89261 89%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ed7425 0%,#ea894d 66%,#ea894d 66%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#e89261 89%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ed7425 0%,#ea894d 66%,#ea894d 66%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#e89261 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7425', endColorstr='#e89261',GradientType=0 );
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 100px;
+    border-bottom: 3px solid white;
 
 }
 
 
 
 .navbar-brand{
-    padding-top: 10px;
+
+
     max-width: 200px;
 
 }
@@ -289,6 +329,11 @@ Image placeholders: placemi.com
 
     -webkit-transition: height 600ms ease-in-out;
     transition: height 600ms ease-in-out;
+}
+
+.nav-container{
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .panel.panel-card .panel-heading img {
     position: absolute;
