@@ -10,7 +10,7 @@ body {
 }
 
 .card-title, .card-text{
-    color: black;
+    color: #11588d;;
 }
 
 h1.home{
@@ -33,6 +33,7 @@ h1.home{
 
 html, body{
     height: 100%;
+    max-width: 100%;
 
 }
 
@@ -50,6 +51,12 @@ html, body{
     font-color: black;
 }
 
+body{
+    background-color: #f6f6f6;
+}
+#services{
+    background-color: #f6f6f6;
+}
 
 img.main-content:hover {
     -webkit-filter: grayscale(0%);
@@ -114,6 +121,7 @@ img.main-content {
     padding-top: 4em;
     padding-bottom: 2em;
     min-height: 100%;
+    color: #11588d;
 }
 
 #home{
@@ -121,7 +129,7 @@ img.main-content {
 }
 
 #ourClients{
-
+    background-color: #345;
    /* background-color:  #90CAF9;*/
 }
 
@@ -134,9 +142,9 @@ img.main-content {
 
     padding: 0;
     position: absolute;
-
-    height: 100%;
-    width: 100%;
+    margin:0px;
+    max-height: 50%;
+    width:100%;
     z-index: -2;
 }
 
@@ -183,6 +191,15 @@ body > .container {
     margin: 20px 0;
 }
 
+.top-header{
+                margin:0;
+                padding-top: 0px;
+    margin-bottom: 2em;
+                min-height: 50%;
+    margin-left: 0px;
+    padding-left:0px;
+}
+
 .footer > .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -192,11 +209,22 @@ body > .container {
     max-height: 500px;
 }
 
+svg path {
+    fill: white;
+}
+
+ svg.ico path{
+    fill: #49c1c3;
+   max-height: 10em;
+
+}
+
+
 .fancy {
     line-height: 0.5;
     text-align: center;
     margin-bottom: 2em;
-    color: #345;
+    color: #49c1c3;
 }
 .fancy span {
     display: inline-block;
@@ -207,7 +235,7 @@ body > .container {
     content: "";
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid #345;
+    border-bottom: 1px solid #49c1c3;
     top: 0;
     width: 600px;
 }
@@ -220,6 +248,13 @@ body > .container {
     margin-left: 15px;
 }
 
+#ourClients .fancy {
+    color: white;
+}
+#ourClients .fancy span:before, #ourClients .fancy span:after{
+    border-bottom: 1px solid white;
+}
+
 code {
     font-size: 80%;
 }
@@ -228,15 +263,12 @@ code {
 }
 
 .navbar-light, .navbar-dark{
-    background: #ed7425; /* Old browsers */
-    background: -moz-linear-gradient(top, #ed7425 0%, #ea894d 66%, #ea894d 66%, #ea894d 67%, #ea894d 67%, #ea894d 67%, #ea894d 67%, #e89261 89%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ed7425 0%,#ea894d 66%,#ea894d 66%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#e89261 89%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ed7425 0%,#ea894d 66%,#ea894d 66%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#ea894d 67%,#e89261 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7425', endColorstr='#e89261',GradientType=0 );
+    background: white;
     padding-top: 5px;
     padding-bottom: 5px;
     max-height: 100px;
     border-bottom: 3px solid white;
+    font-color: black;
 
 }
 
@@ -268,10 +300,13 @@ code {
 #ourTeam h1, #aboutUs h1{
     color: black;
 }
+card-block h4, card-block p{
+      color:#11588d;
+  }
 
 .panel-card{
     background-color: white;
-    color: black;
+    color: #11588d;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.15rem;
 
@@ -310,6 +345,8 @@ Image placeholders: placemi.com
     padding-bottom: 80px;
     background-color: #345;
 }
+
+
 
 /********************************/
 /*          Panel cards         */

@@ -1,18 +1,5 @@
 
 
-$(window).scroll(function () {
-    if ($(".navbar-fixed-top").offset().top > $(window).height()) {
-
-        $(".navbar-fixed-top").addClass("navbar-light");
-
-    } else {
-
-        $(".navbar-fixed-top").removeClass("navbar-light");
-
-    }
-});
-
-
 $(window).on("load",function() {
     function fade() {
         var animation_height = $(window).innerHeight() * 0.25;
