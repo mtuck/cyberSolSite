@@ -128,13 +128,17 @@ img.main-content {
     padding-top:1px;
 }
 
-#ourClients{
-    background-color: #345;
+#ourClients, .teamMember{
+    background-color: #22313f;
+    color: #f6f6f6;
    /* background-color:  #90CAF9;*/
 }
+#ourTeam{
+    background-color: white;
+}
 
-.up{
-    z-index: 2;
+.teamMember div h1 b, .teamMember div h1 small{
+    color: white;
 }
 
 .background-image{
@@ -191,6 +195,14 @@ body > .container {
     margin: 20px 0;
 }
 
+.nopadding {
+    padding: 0 !important;
+
+}
+.nomargin{
+    margin: 0 !important;
+}
+
 .top-header{
                 margin:0;
                 padding-top: 0px;
@@ -198,6 +210,17 @@ body > .container {
                 min-height: 50%;
     margin-left: 0px;
     padding-left:0px;
+
+
+    background: #49c1c3; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #49c1c3 0%, #50b5d3 50%, #207cca 100%, #7db9e8 100%, #6290c1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #49c1c3 0%,#50b5d3 50%,#207cca 100%,#7db9e8 100%,#6290c1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #49c1c3 0%,#50b5d3 50%,#207cca 100%,#7db9e8 100%,#6290c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c1c3', endColorstr='#6290c1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    opacity: .7;
+    z-index: +5;
+    max-height: 50%;
+    display:block;
 }
 
 .footer > .container {
@@ -210,7 +233,7 @@ body > .container {
 }
 
 svg path {
-    fill: white;
+    fill: #f6f6f6;
 }
 
  svg.ico path{
@@ -249,11 +272,9 @@ svg path {
 }
 
 #ourClients .fancy {
-    color: white;
+    color: #f6f6f6;
 }
-#ourClients .fancy span:before, #ourClients .fancy span:after{
-    border-bottom: 1px solid white;
-}
+
 
 code {
     font-size: 80%;
@@ -293,16 +314,21 @@ code {
 }
 
 #ourTeam{
-
+    padding-top: 4em;
     color: black;
 }
 
 #ourTeam h1, #aboutUs h1{
     color: black;
 }
+
+
 card-block h4, card-block p{
-      color:#11588d;
+      color: black;
   }
+#aboutUs h2{
+    color: black;
+}
 
 .panel-card{
     background-color: white;
@@ -515,10 +541,21 @@ h1{
     margin-left: 50%;
 }
 
-@media (max-width: 1300px) {
-    .effective {
-        display: none;
-    }
+
+.effective {
+    bottom: 0;left: 0; top: 0; right: 0;
+    margin: auto;
+    margin-top: 200px;
+    position: absolute;
+    border-radius: 50%;
+    opacity:1;
+    text-align: center;
 }
+
+
+p {
+    font-size: 20px;
+}
+
 
 
