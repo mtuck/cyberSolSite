@@ -47,9 +47,7 @@ html, body{
 
 }
 
-#ourTeam .container h1, #aboutUs .container h1{
-    font-color: black;
-}
+
 
 body{
     background-color: #f6f6f6;
@@ -104,10 +102,7 @@ img.main-content {
 
 }
 
-#services{
 
-    color: black;
-}
 
 
 
@@ -291,7 +286,10 @@ code {
     border-bottom: 3px solid white;
     font-color: black;
 
+
 }
+
+
 
 
 
@@ -318,17 +316,13 @@ code {
     color: black;
 }
 
-#ourTeam h1, #aboutUs h1{
-    color: black;
-}
+
 
 
 card-block h4, card-block p{
       color: black;
   }
-#aboutUs h2{
-    color: black;
-}
+
 
 .panel-card{
     background-color: white;
@@ -558,4 +552,14 @@ p {
 }
 
 
+
+svg.ico{
+    padding-top: 3em;
+    vertical-align: middle;
+    max-height: 100px;
+}
+
+.btn-outline-white{
+    border-color: #02ecc7;
+}
 
