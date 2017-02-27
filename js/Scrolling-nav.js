@@ -35,3 +35,5 @@ $(window).on("load",function() {
     fade();
     $(window).scroll(function() {fade();});
 });
+
+
