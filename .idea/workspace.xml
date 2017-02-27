@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b242259-3536-4583-8f5d-2cc436cd6c0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+            <state relative-caret-position="361">
+              <caret line="536" column="71" lean-forward="true" selection-start-line="536" selection-start-column="71" selection-end-line="536" selection-end-column="71" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#svg#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -32,8 +31,8 @@
                 <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -119,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="655">
+              <caret line="128" column="35" lean-forward="true" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -143,9 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>card</find>
-      <find>card-bl</find>
-      <find>card-tit</find>
       <find>omni-cha</find>
       <find>ourcli</find>
       <find>ourc</find>
@@ -169,10 +165,13 @@
       <find>h4</find>
       <find>navbar-bran</find>
       <find>navbar</find>
-      <find>omni</find>
       <find>ico</find>
       <find>about us</find>
+      <find>omni</find>
+      <find>f</find>
+      <find>f</find>
       <find>services</find>
+      <find>our clients</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,8 +183,8 @@
         <option value="$PROJECT_DIR$/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/js/Scrolling-nav.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -199,8 +198,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +245,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +350,8 @@
       <workItem from="1484835830499" duration="248000" />
       <workItem from="1487605969672" duration="10301000" />
       <workItem from="1487617300822" duration="24653000" />
-      <workItem from="1487887357146" duration="1937000" />
+      <workItem from="1487887357146" duration="3566000" />
+      <workItem from="1488207700201" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="changed a lot">
       <created>1487616915641</created>
@@ -364,13 +364,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104344000" />
+    <option name="totallyTimeSpent" value="109647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09115139" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11569579" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,8 +478,8 @@
             <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -578,8 +578,8 @@
             <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -660,8 +660,8 @@
             <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -801,10 +801,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="128" column="35" lean-forward="true" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        <state relative-caret-position="361">
+          <caret line="536" column="71" lean-forward="true" selection-start-line="536" selection-start-column="71" selection-end-line="536" selection-end-column="71" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -813,8 +821,8 @@
             <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -823,14 +831,6 @@
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
