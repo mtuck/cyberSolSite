@@ -1,6 +1,12 @@
 
 
 $(window).on("load",function() {
+    $('.menu > a').click(function ( e ) {
+
+        $(".menu > a").removeClass("active"); //Remove any "active" class
+        $(this).addClass("active"); //Add "active" class to selected tab
+
+    });
 
     $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
