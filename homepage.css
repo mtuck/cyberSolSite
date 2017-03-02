@@ -272,7 +272,6 @@ min-height: 100%;
 
 /* Mobile Only */
 @media only screen and (max-width : 768px) {
-
   #home .menu .right.menu > .item {
     display: none;
   }
@@ -318,6 +317,9 @@ min-height: 100%;
 
   #home .selection.list .right.floated {
     display: none;
+  }
+  .ui.card{
+      margin: auto;
   }
 }
 a.item{
