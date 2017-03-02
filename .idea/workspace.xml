@@ -31,15 +31,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="169" column="72" lean-forward="false" selection-start-line="169" selection-start-column="72" selection-end-line="169" selection-end-column="72" />
+            <state relative-caret-position="117">
+              <caret line="251" column="16" lean-forward="true" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1488328030468" expanded="true" signature="9576:9591" ph="..." />
-                <marker date="1488328030468" expanded="true" signature="9707:9722" ph="..." />
+                <marker date="1488466970523" expanded="true" signature="9567:9582" ph="..." />
+                <marker date="1488466970523" expanded="true" signature="9698:9713" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,10 +158,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
-    <option name="y" value="162" />
+    <option name="x" value="12" />
     <option name="width" value="1279" />
-    <option name="height" value="969" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -308,15 +307,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488296698579</updated>
-      <workItem from="1488296700196" duration="23773000" />
+      <workItem from="1488296700196" duration="24370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23773000" />
+    <option name="totallyTimeSpent" value="24370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="456" y="162" width="1279" height="969" extended-state="1" />
+    <frame x="12" y="0" width="1279" height="687" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -429,15 +428,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="169" column="72" lean-forward="false" selection-start-line="169" selection-start-column="72" selection-end-line="169" selection-end-column="72" />
+        <state relative-caret-position="117">
+          <caret line="251" column="16" lean-forward="true" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1488328030468" expanded="true" signature="9576:9591" ph="..." />
-            <marker date="1488328030468" expanded="true" signature="9707:9722" ph="..." />
+            <marker date="1488466970523" expanded="true" signature="9567:9582" ph="..." />
+            <marker date="1488466970523" expanded="true" signature="9698:9713" ph="..." />
           </folding>
         </state>
       </provider>
