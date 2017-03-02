@@ -253,7 +253,7 @@ height: 100%;
     Footer
 ---------------*/
 
-#home .footer.segment {
+#home .footer{
   background-color: #000000;
   padding: 3rem 0rem;
 }
