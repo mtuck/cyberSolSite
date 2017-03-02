@@ -375,3 +375,11 @@ img{
     background: linear-gradient(45deg, #6699ff 9%,#6699ff 12%,#00ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6699ff', endColorstr='#00ccff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+p > b {
+    color: rgba(53, 53, 53, 0.64);
+}
+
+.service-icon{
+    color: #00CCFF;
+}
