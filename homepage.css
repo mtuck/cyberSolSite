@@ -6,6 +6,10 @@ html {
   font-size: 14px;
 }
 
+body {
+    font-family: 'Gentium Basic';font-size: 22px;
+}
+
 
 /*******************************
             Global
@@ -122,6 +126,7 @@ border-radius: 0;
     opacity: 1;
     padding: 0;
     width: 80px;
+
 }
 
 
@@ -143,7 +148,7 @@ font-weight: 300;margin: 0;padding: 30px 0 0 0;font-size: 16pt;letter-spacing: 1
 }
 .ui.menu .item{
     color: rgba(0,0,0,0.4);
-    
+
 }
 .ui.secondary.pointing.menu > .menu > .item, .ui.secondary.pointing.menu > .item{
     border-bottom-width: 1px;
@@ -151,7 +156,7 @@ font-weight: 300;margin: 0;padding: 30px 0 0 0;font-size: 16pt;letter-spacing: 1
 }
 
 .ui.secondary.pointing.menu .item .ui.input input{
-    color: rgba(255,255,255,0.6); 
+    color: rgba(255,255,255,0.6);
 }
 .ui.secondary.pointing.menu .item i{
 margin-right: 3px;
@@ -220,13 +225,13 @@ height: 100%;
     width: 100%;
 }
 
- 
+
 /*--------------
     Ribbons
 ---------------*/
 
 #home .segment h1 {
-  font-size: 3em;   
+  font-size: 3em;
 }
 
 #home .vertical.segment {
@@ -318,11 +323,12 @@ a.item{
 }
 .column-about{
     margin: 4px;
+
 }
 .column-about p{
 
     font-size: 1.2em !important;
-    color: white;
+    color: black;
 
 }
 .header{
