@@ -321,6 +321,9 @@ min-height: 100%;
   .ui.card{
       margin: auto;
   }
+  .transition, .masthead{
+      margin: 0!important;
+  }
 }
 a.item{
     border: none;
