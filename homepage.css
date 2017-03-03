@@ -131,7 +131,7 @@ font-weight: 300;margin: 0;padding: 30px 0 0 0;font-size: 16pt;letter-spacing: 1
 }
 
 .ui.secondary.pointing.menu {
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
+    border-bottom: 0px solid rgba(255,255,255, 0.1);
 }
 .ui.menu .logo.item{
     font-weight: 800;color: #000;font-size: 16pt;padding: 0 10px !important;
@@ -141,7 +141,7 @@ font-weight: 300;margin: 0;padding: 30px 0 0 0;font-size: 16pt;letter-spacing: 1
 
 }
 .ui.secondary.pointing.menu > .menu > .item, .ui.secondary.pointing.menu > .item{
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
     margin: 0 0 -1px;
 }
 
@@ -213,6 +213,10 @@ margin-right: 3px;
 
 #home .segment h1 {
   font-size: 3em;
+}
+
+.segment{
+    border: none;
 }
 
 #home .vertical.segment {
@@ -390,6 +394,8 @@ p > b {
 }
 .p4{
     background-image: url("https://files.slack.com/files-pri/T0PQCPGBX-F4E78G155/pexels-photo.jpg");
+    padding:0 !important;
+    margin:0 !important;
 }
 
 .animated{
