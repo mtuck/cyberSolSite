@@ -26,7 +26,7 @@
     </script>
 </head>
 <body id="home">f
-<div class="ui inverted masthead centered segment">
+<div class="ui inverted masthead centered segment parallax p4">
     <div class="ui page grid">
         <div class="column ">
 
@@ -65,23 +65,21 @@
 
                 </h1>
 
-                <a href="#aboutUs" class="large basic orange inverted animated fade ui button page-scroll">
-                    <div class="visible content">About Us</div>
+                <a href="#aboutUs" class="large basic orange  animated fade ui button page-scroll">
+                    <div class="visible content orange">About Us</div>
                     <div class="hidden content">We Are Ready To Help</div>
                 </a>
 
             </div>
             <div class="one column grid container">
-            <div class="ui center sixteen wide column">
-                <img  class="banner" src="images/banner.png" />
-            </div>
+
         </div>
         </div>
     </div>
 </div>
 
 <div id="aboutUs" class="ui vertical feature segment">
-    <div class="ui very relaxed stackable center aligned page grid">
+    <div class="ui stackable center aligned  page conatiner grid">
         <div class="row">
             <div class="eight wide column">
                 <h1 class="ui inverted header">
@@ -93,36 +91,67 @@
                 <br/>
             </div>
         </div>
-        <div class="sixteen wide column">
-            <div class="ui four column center aligned stackable divided grid">
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-connecting icon"></i>
-                        Professional Mentoring
+
+
+        <div class="ui row">
+            <div class="four wide column">
+
+                <div class="ui card" >
+
+                    <i class="fa fa-handshake-o fa-5x about-icon"></i>
+
+                    <div class="content">
+                        <div class="header black">Professional Mentoring</div>
+                        <div class="description">
+                            <p><b>Our consulting expertise is focused on combining proven strategies with expert knowledge to provide a complete solution for your retail chain. By developing insightful relationships between retailers and consumers, we provide solutions that can be applied to our client's needs.</b></p>
+                        </div>
                     </div>
-                    <p><b>Our consulting expertise is focused on combining proven strategies with expert knowledge to provide a complete solution for your retail chain. By developing insightful relationships between retailers and consumers, we provide solutions that can be applied to our client's needs.</b></p>
-                </div>
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-calendar icon"></i>
-                        Deep Understanding of the Retail Marketplace
-                    </div>
-                    <p><b>We offer a valuable and unique external perspective to both emerging and established retail businesses through expertise in business models, cost structures, and resource capabilities and requirements.</b></p>
 
                 </div>
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-speech icon"></i>
-                        Provide Winning Solutions
-                    </div>
-                    <p><b>Our solutions have been applied across all retail IT solution segments to all channels of retailing; including stores, cross-channel systems and e-commerce platforms. By partnering with our clients, we strive to transfer our retailing knowledge to the clients to ensure successful execution and on-going performance improvements</b></p>
 
-                </div>
             </div>
 
 
 
+            <div class="four wide column ">
+                <div class="ui card">
+                    <i class="fa fa-shopping-basket fa-5x about-icon"></i>
+                    <div class="content">
+                        <div class="header black">Deep Understanding of the Retail Marketplace
+                        </div>
+                        <div class="description">
+                            <p><b>We offer a valuable and unique external perspective to both emerging and established retail businesses through expertise in business models, cost structures, and resource capabilities and requirements.</b></p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="four wide column">
+
+                <div class="ui card" >
+                    <i class="fa fa-money fa-5x about-icon"></i>
+                    <div class="content">
+                        <div class="header black">Provide Winning Solutions
+                        </div>
+                        <div class="description">                    <p><b>Our solutions have been applied across all retail IT solution segments to all channels of retailing; including stores, cross-channel systems and e-commerce platforms. By partnering with our clients, we strive to transfer our retailing knowledge to the clients to ensure successful execution and on-going performance improvements</b></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
         </div>
+
+
     </div>
 
 
@@ -130,7 +159,7 @@
 
 
 </div>
-
+<div class="parallax p1"></div>
 <div id="ourClients" class="ui vertical segment ">
     <div class="ui stackable center aligned page container grid">
         <div class="row">
@@ -164,7 +193,7 @@
     </div>
 </div>
 
-
+<div class="parallax p3"></div>
 <div id="services" class="ui  vertical segment">
     <div class="ui stackable center aligned  page conatiner grid">
         <div class="row">
@@ -286,7 +315,7 @@
     </div>
 </div>
 
-
+<div class="parallax p2"></div>
 
 <div id="ourTeam" class="ui recent-works vertical segment">
     <div class="ui stackable center aligned  page conatiner grid">
@@ -295,8 +324,8 @@
                 <h1 class="center aligned ui inverted header">
                     Senior Team Members
                 </h1>
-                <div class="ui horizontal divider"><i class="fa fa-user fa-white"></i></div>
-                <p class="ui centered lead">Here Are Our Software and Retail Experts</p>
+                <div class="ui horizontal divider"><i class="fa fa-user "></i></div>
+                <p class="ui centered lead black">Here Are Our Software and Retail Experts</p>
             </div>
         </div>
         <div class="ui row">
@@ -390,8 +419,8 @@
 <script>
     $(function(){
         $(".element").typed({
-            strings: ["<div class='btn-aqua container' style=' font-size: 1em'>How can we make your retail systems more efficient and effective?</div>", "<div class='btn-aqua container' style=' font-size: 1em'>How can we help your business expand?</div>"],
-            typeSpeed: 50,loop: true, showCursor: false
+            strings: ["<div class='btn-aqua container' style=' font-size: 1em'>How can we make your retail systems more efficient and effective?</div>", "<div class='btn-aqua container' style=' font-size: 1em'>How can we help your business expand?</div>", "<img class='logo' style='height: 50px' src='images/cyberlogo.svg'>"],
+            typeSpeed: 50,loop: false, showCursor: false,backSpeed: -1000
         });
     });
 </script>

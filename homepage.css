@@ -41,19 +41,7 @@ body {
     Masthead
 ---------------*/
 
-#home .masthead {
-  background: rgb(24,42,115);
-background: -moz-linear-gradient(-45deg,  rgba(24,42,115,1) 0%, rgba(33,138,174,1) 69%, rgba(32,167,172,1) 89%);
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(24,42,115,1)), color-stop(69%,rgba(33,138,174,1)), color-stop(89%,rgba(32,167,172,1)));
-background: -webkit-linear-gradient(-45deg,  rgba(24,42,115,1) 0%,rgba(33,138,174,1) 69%,rgba(32,167,172,1) 89%);
-background: -o-linear-gradient(-45deg,  rgba(24,42,115,1) 0%,rgba(33,138,174,1) 69%,rgba(32,167,172,1) 89%);
-background: -ms-linear-gradient(-45deg,  rgba(24,42,115,1) 0%,rgba(33,138,174,1) 69%,rgba(32,167,172,1) 89%);
-background: linear-gradient(135deg,  rgba(24,42,115,1) 0%,rgba(33,138,174,1) 69%,rgba(32,167,172,1) 89%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#182a73', endColorstr='#20a7ac',GradientType=1 );
-border-radius: 0;
-  margin: 0em;
-  padding: 1rem 0rem 0;
-}
+
 #home .masthead .column {
   position: relative;
 }
@@ -117,7 +105,7 @@ border-radius: 0;
 
 #home .column-about .ui.icon.header .icon {
     border: 1px solid white;
-    color: white;
+    color: black;
     border-radius: 500px;
     display: block;
     float: none;
@@ -166,7 +154,7 @@ margin-right: 3px;
 }
 
 .fa-white{
-    color: white;
+    color: black;
 }
 
 .ui.secondary.pointing.menu > .menu > .item:not(.logo), .ui.secondary.pointing.menu > .item:not(.logo){
@@ -189,24 +177,15 @@ margin-right: 3px;
 /*-----------------
     Recent Works
 ------------------*/
-.segment{
-    min-height: 100%;
-}
+
 
 .footer{
     height: auto;
 }
 
 .ui.recent-works{
-    background: rgb(14,21,58);
-background: -moz-linear-gradient(45deg,  rgba(14,21,58,1) 0%, rgba(115,107,147,1) 48%, rgba(243,201,215,1) 100%);
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(14,21,58,1)), color-stop(48%,rgba(115,107,147,1)), color-stop(100%,rgba(243,201,215,1)));
-background: -webkit-linear-gradient(45deg,  rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
-background: -o-linear-gradient(45deg,  rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
-background: -ms-linear-gradient(45deg,  rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
-background: linear-gradient(45deg,  rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e153a', endColorstr='#f3c9d7',GradientType=1 );
-min-height: 100%;
+    background: #f6f6f6;
+
 }
 
 .ui.recent-works .column{
@@ -339,21 +318,16 @@ a.item{
 
 }
 .header{
-    color: white !important ;
+    color: black !important ;
 }
 .black{
     color: black !important;
 }
 #aboutUs{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9900+0,ff6666+100 */
-    background: #ff9900; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #ff9900 0%, #ff6666 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover, #ff9900 0%,#ff6666 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, #ff9900 0%,#ff6666 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#ff6666',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: #f6f6f6;
 }
 p.white{
-    color: white !important;
+    color: black !important;
 }
 
 .segment{
@@ -373,12 +347,7 @@ img{
 }
 
 #services{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6699ff+9,6699ff+12,00ccff+100 */
-    background: #6699ff; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #6699ff 9%, #6699ff 12%, #00ccff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #6699ff 9%,#6699ff 12%,#00ccff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #6699ff 9%,#6699ff 12%,#00ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6699ff', endColorstr='#00ccff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: #f6f6f6;
 }
 
 p > b {
@@ -387,4 +356,42 @@ p > b {
 
 .service-icon{
     color: #00CCFF;
+}
+
+.about-icon{
+    color: #000033;
+}
+
+
+.parallax {
+    /* The image used */
+
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1{
+    background-image: url("https://files.slack.com/files-tmb/T0PQCPGBX-F4CLUQHLZ-4ee61b98fd/keyboard-computer-keys-white_1024.jpg");
+}
+
+.p2{
+    background-image: url("https://files.slack.com/files-pri/T0PQCPGBX-F4CRJQJQZ/people-woman-coffee-meeting.jpg");
+}
+
+.p3{
+    background-image: url("https://files.slack.com/files-pri/T0PQCPGBX-F4DGB6HV0/pexels-photo-87322.jpeg");
+}
+.p4{
+    background-image: url("https://files.slack.com/files-pri/T0PQCPGBX-F4E78G155/pexels-photo.jpg");
+}
+
+.animated{
+    border-color: red;
 }
