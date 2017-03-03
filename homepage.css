@@ -396,6 +396,7 @@ p > b {
     background-image: url("https://files.slack.com/files-pri/T0PQCPGBX-F4E78G155/pexels-photo.jpg");
     padding:0 !important;
     margin:0 !important;
+    height: 100% !important;
 }
 
 .animated{
