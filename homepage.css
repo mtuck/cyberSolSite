@@ -374,11 +374,8 @@ img{
 
 #services{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6699ff+9,6699ff+12,00ccff+100 */
-    background: #6699ff; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #6699ff 9%, #6699ff 12%, #00ccff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #6699ff 9%,#6699ff 12%,#00ccff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #6699ff 9%,#6699ff 12%,#00ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6699ff', endColorstr='#00ccff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: white;
+    color: black;
 }
 
 p > b {
@@ -386,5 +383,39 @@ p > b {
 }
 
 .service-icon{
-    color: #00CCFF;
+    color: #160070;
 }
+
+.card2{
+    margin-bottom: 2em;
+
+}
+
+
+.sixteen .content .description p b{
+    color: #160070 !important;
+    font-size:  1.5em;
+
+
+}
+
+p b{
+
+    font-size:  1.5em;
+    line-height: 2em;
+}
+
+.content > .black1{
+    color: #160070 !important;
+    font-size:  2em;
+}
+
+body{
+    font-size:  1.5em !important;
+}
+
+.ui.icon.header{
+    font-size: 2em;
+}
+
+
