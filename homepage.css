@@ -196,9 +196,7 @@ margin-right: 3px;
 /*-----------------
     Recent Works
 ------------------*/
-.segment{
-    min-height: 100%;
-}
+
 
 .footer{
     height: auto;
@@ -390,7 +388,7 @@ p > b {
 }
 
 .service-icon{
-    color: #160070;
+    color: #0d72c7;
 }
 
 .card2{
@@ -400,7 +398,7 @@ p > b {
 
 
 .sixteen .content .description p b{
-    color: #160070 !important;
+    color: #0d72c7 !important;
     font-size:  1.5em;
 
 
@@ -413,7 +411,7 @@ p b{
 }
 
 .content > .black1{
-    color: #160070 !important;
+    color: #0d72c7 !important;
     font-size:  2em;
 }
 
