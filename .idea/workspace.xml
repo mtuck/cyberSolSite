@@ -4,7 +4,6 @@
     <list default="true" id="08329549-d32c-4929-8d4c-c02b9d707957" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.css" afterPath="$PROJECT_DIR$/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="396" column="22" lean-forward="true" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
+            <state relative-caret-position="486">
+              <caret line="403" column="19" lean-forward="false" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -88,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>services we</find>
       <find>images</find>
       <find>scroll</find>
       <find>our client</find>
@@ -118,6 +116,7 @@
       <find>deep un</find>
       <find>profession</find>
       <find>service</find>
+      <find>HOme</find>
     </findStrings>
     <replaceStrings>
       <replace>#001C5D</replace>
@@ -130,8 +129,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/Scrolling-nav.js" />
-        <option value="$PROJECT_DIR$/homepage.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/homepage.css" />
       </list>
     </option>
   </component>
@@ -274,12 +273,12 @@
       <workItem from="1488296700196" duration="24370000" />
       <workItem from="1488474313266" duration="4525000" />
       <workItem from="1488489167301" duration="1713000" />
-      <workItem from="1488817911147" duration="2613000" />
+      <workItem from="1488817911147" duration="2962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36368000" />
+    <option name="totallyTimeSpent" value="36717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -703,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Scrolling-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/tether.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -727,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="396" column="22" lean-forward="true" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -745,6 +728,22 @@
             <marker date="1488820525145" expanded="true" signature="17581:17596" ph="..." />
             <marker date="1488820525145" expanded="true" signature="17712:17727" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Scrolling-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="403" column="19" lean-forward="false" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
