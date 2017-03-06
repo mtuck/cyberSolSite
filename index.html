@@ -1,406 +1,305 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <!-- Standard Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="shortcut icon" href="images/thumbnail.jpg">
-    <link rel="apple-touch-icon" href="images/thumbnail.jpg">
-    <!-- Site Properities -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Cybernetic Retail</title>
 
-    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.css">
-    <link rel="stylesheet" type="text/css" href="homepage.css">
-    <link rel="stylesheet" type="text/css" href="iconfonts/flaticon.css">
-    <link rel="stylesheet" type="text/css" href="icon.min.css">
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href='//fonts.googleapis.com/css?family=Gentium Basic' rel='stylesheet'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-    <script src="semantic-ui/semantic.js"></script>
-    <script src="homepage.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-        $(function(){
-            $('.ui.card').popup();
-        });
-    </script>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body id="home">f
-<div class="ui inverted masthead centered segment">
-    <div class="ui page grid">
-        <div class="column ">
 
+<body id="page-top" class="index">
 
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Cybernetic Retail</a>
+            </div>
 
-            <div s class="ui fixed  white menu navbar page grid menu">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#ourClients">Our Clients</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#aboutUs">About Us</a>
+                    </li>
+                    <li class="page-scroll">
+                    <a href="#services">Services </a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#ourTeam">Our Team </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-                <a href="#home" class="logo  item page-scroll">
-                    <img class="logo" style="height: 50px" src="images/cyberlogo.svg">
-                </a>
-                <a href="#home" class="active item page-scroll">
-                    <i class="fa fa-home fa-md"></i> HOME
-                </a>
-                <a href="#aboutUs" class="item page-scroll">
-                    <i class="fa fa-info fa-md"></i> ABOUT US
-                </a>
-                <a href="#ourClients" class="item page-scroll">
-                    <i class="fa fa-handshake-o fa-md"></i> OUR CLIENTS
-                </a>
-                <a href="#services" class="item page-scroll">
-                    <i class="fa fa-shopping-cart fa-md"></i> SERVICES
-                </a>
-                <a href="#ourTeam" class="item page-scroll">
-                    <i class="fa fa-male fa-md"></i> OUR TEAM
-                </a>
-                <div class="right menu">
-                    <a href="#footer" class=" item page-scroll">
-                        <i class="fa fa-phone fa-md"></i>
-                        CONTACT US
-                    </a>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-rounded" style="height: 300px; width: auto; bottom-margin: 0" src="img/images/banner.png" alt="">
+                    <div class="intro-text" style="top-margin: 0">
+                        <span class="name element" id="element" style="min-height: 9em"></span>
+                        <hr class="star-light">
+                        <span class="skills">Integrate - Analyze - Report - Grow</span>
+                    </div>
                 </div>
             </div>
+        </div>
+    </header>
 
-            <div class="ui transition information">
-                <h1 style="min-height: 4em" class="ui inverted centered header element">
-
-                </h1>
-
-                <a href="#aboutUs" class="large basic orange inverted animated fade ui button page-scroll">
-                    <div class="visible content">About Us</div>
-                    <div class="hidden content">We Are Ready To Help</div>
-                </a>
-
+    <!-- Portfolio Grid Section -->
+    <section id="ourClients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Our Clients</h2>
+                    <hr class="star-primary handshake-primary">
+                </div>
             </div>
-            <div class="ui one column grid container">
-            <div class="ui center aligned sixteen wide column">
-                <img  class="banner" src="images/banner.png" />
-            </div>
+            <div class="row">
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/dtlr.svg" class="img-responsive" alt="">
+
+                </div>
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/under_armour_logo_108x108.svg" class="img-responsive" alt="">
+
+                </div>
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/logo_boot_barn_108x108.svg" class="img-responsive" alt="">
+
+                </div>
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/logo_david_yurman_108x108.svg" class="img-responsive" alt="">
+
+                </div>
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/logo_tps2_108x108.svg" class="img-responsive" alt="">
+
+                </div>
+                <div class="col-sm-2 portfolio-item">
+
+
+                        <img src="img/svg/logo_metropark_108x108.jpg" class="img-responsive" alt="">
+
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div id="aboutUs" class="ui vertical feature segment">
-    <div class="ui very relaxed stackable center aligned page grid">
-        <div class="row">
-            <div class="eight wide column">
-                <h1 class="ui inverted header">
-                    About Us
-                </h1><div class="ui inverted horizontal divider"><i class="fa fa-info fa-sm fa-white"></i></div>
-                <p class="ui white centered ">
-                    What We Do
-                </p>
-                <br/>
+    <!-- About Section -->
+    <section class="success" id="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Us</h2>
+                    <hr class="star-light">
+                </div>
             </div>
-        </div>
-        <div class="sixteen wide column">
-            <div class="ui four column center aligned stackable divided grid">
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-connecting icon"></i>
-                        Professional Mentoring
-                    </div>
+            <div class="row">
+                <div class="col-lg-4">  <h3>Deep Understanding of the Retail Marketplace</h3><br/>                 <p><b>We offer a valuable and unique external perspective to both emerging and established retail businesses through expertise in business models, cost structures, and resource capabilities and requirements.</b></p>
+                </div>
+                <div class="col-lg-4"><h3>Professional Mentoring</h3><br/>
                     <p><b>Our consulting expertise is focused on combining proven strategies with expert knowledge to provide a complete solution for your retail chain. By developing insightful relationships between retailers and consumers, we provide solutions that can be applied to our client's needs.</b></p>
                 </div>
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-calendar icon"></i>
-                        Deep Understanding of the Retail Marketplace
-                    </div>
-                    <p><b>We offer a valuable and unique external perspective to both emerging and established retail businesses through expertise in business models, cost structures, and resource capabilities and requirements.</b></p>
-
-                </div>
-                <div class="column column-about">
-                    <div class="ui icon header">
-                        <i class="flaticon-speech icon"></i>
-                        Provide Winning Solutions
-                    </div>
+                <div class="col-lg-4"><h3>Provide Winning Solutions</h3><br/>
                     <p><b>Our solutions have been applied across all retail IT solution segments to all channels of retailing; including stores, cross-channel systems and e-commerce platforms. By partnering with our clients, we strive to transfer our retailing knowledge to the clients to ensure successful execution and on-going performance improvements</b></p>
 
                 </div>
             </div>
-
-
-
         </div>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Services</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <ul class="nav nav-tabs nav-justified" >
+                        <li class="active"><a data-toggle="tab" href="#menu0" style="height: 70px">E-Commerce</a></li>
+                        <li><a data-toggle="tab" href="#menu1" style="height: 70px">Omni-Channel</a></li>
+                        <li><a data-toggle="tab" href="#menu2" style="height: 70px">Warehouse Management Systems</a></li>
+                        <li><a data-toggle="tab" href="#menu3" style="height: 70px">In-Store Dashboards</a></li>
+                        <li><a data-toggle="tab" href="#menu4" style="height: 70px">Allocation And Replenishment Services</a></li>
+                        <li><a data-toggle="tab" href="#menu5" style="height: 70px">Business Analysis and Reporting Solutions</a></li>
+
+                    </ul>
+                    <div class="tab-content">
+                        <div id="menu0" class="tab-pane fade in active">
+                            <h3>E-Commerce</h3>
+                            <p>Today's retailers need to plan not only for their brick and mortar stores, but they must also have an exceptional e-commerce platform to engage their customers. Retail e-commerce sites are a vital method of getting more value from brick and mortar stores, chain inventory, and ongoing customer loyalty. Select the right platform to suit your needs, from multi-channel interaction, to marketing and branding design, is crucial in providing customers an integrated and attractive online shopping experience. Cybernetic Retail can assist you in the design, integration and implementation of an e-commerce site that is flexible, fast and consistent</p>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <h3>Omni-Channel</h3>
+                            <p>Omni-channel retailers provide consumers the ability to experience an entire brand, not just a segment of a brand. By utilizing brick and mortar stores as extensions of your service offering, customers can research their purchases through other channels allowing consumers the ability to tailor their shopping experience for themselves. Omni-channel retailing is made more efficient through directed marketing campaigns designed to a consumer's sensibilities. Omni-channel platforms combine a mixture of physical and digital channels, transforming historical multichannel systems into a more innovative and unified customer experience</p>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <h3>Warehouse Management Systems</h3>
+                            <p>A superior warehouse management system is a key part of any effective supply chain, maximizing aspects from warehouse tracking systems to real-time product movement and streamlined order picking. Our consultants offer insights into increased inventory accuracy utilizing proven systems to manage changes in order volume, distribution points and complex fulfillment logistics. Any increased reliability can create long-lasting customer satisfaction. Let us help you develop a winning strategy and implement a successful solution.</p>
+                        </div>
+
+                        <div id="menu3" class="tab-pane fade">
+                            <h3>In-Store Dashboards</h3>
+                            <p>In-store Dashboards are a powerful tool that enables organizations to gain better, faster insight into invaluable retail metrics and performance. They can be used to help analyze company data at various levels from product, to store, to region, and turn that data into real-time actionable decision making. Our dashboard options can be used in conjunction with performance reporting and business intelligence analysis to obtain tangible ROIs.</p>
+                        </div>
+
+
+                        <div id="menu4" class="tab-pane fade">
+                            <h3>Allocation And Replenishment Services</h3>
+                            <p>In a market where retailers are compelled to adjust mid-stream to ensure product availability, efficient A&R allows retailers to adapt to changes across retail environments or store performances. A powerful allocation and replenishment solution allows companies to react to trends in the marketplace, while maintaining the ability to manage inventory on an ongoing basis without disruption to the rest of your chain. The Cybernetic Retail Allocation & Replenishment options support clients in defining A&R strategies, develop successful inventory methodologies and build optimized long-term solutions throughout your chain.
+
+                                Optimized allocations result in achieving the financial targets and profitability goals set by the retail organization from a strategic standpoint</p>
+                        </div>
+
+                        <div id="menu5" class="tab-pane fade">
+                            <h3>Business Analysis and Reporting Solutions</h3>
+                            <p>We draw upon our extensive retail experience to help develop and review strategic business recommendations. By looking at external and internal factors, market dynamics, and performance across all levels of your business, Cybernetic Retail is able to provide just the information you need to strengthen and improve your presence in the retail marketplace. The challenge in today's industry isn't lack of data, it's too much data. We help by identifying your company’s strengths, weaknesses and key opportunities and presenting the data in a useful and actionable format. Our goal is to work with our clients to ensure they have the most meaningful information available to assist in managing their company's future.</p>
+                        </div>
 
 
 
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
-
-<div id="ourClients" class="ui vertical segment ">
-    <div class="ui stackable center aligned page container grid">
+    <section  id="ourTeam">
         <div class="row">
-            <div class="eight wide column">
-                <h1 class="ui header black">
-                    Our Clients
-                </h1><div class="ui horizontal divider"><i class="fa fa-handshake-o"></i></div>
-                <p class="ui centered lead">
-                    We Provide Software Solutions For...
-                </p>
-                <br/>
+            <div class="col-lg-12 text-center">
+                <h2>Team Leaders</h2>
+                <hr class="star-primary">
             </div>
         </div>
-        <div class="ui row">
 
-            <div class="two wide column">
-                <img src="images/logo_boot_barn_108x108.svg">
-            </div>
-            <div class="two wide column">
-                <img src="images/under_armour_logo_108x108.svg">
-            </div>
-
-            <div class="two wide column">
-                <img src="images/logo_david_yurman_108x108.svg">
-            </div>
-            <div class="two wide column">
-                <img src="images/dtlr.svg">
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<div id="services" class="ui  vertical segment">
-    <div class="ui stackable center aligned  page conatiner grid">
-        <div class="row">
-            <div class="eight wide centered column">
-                <h1 class="center aligned ui  header black">
-                    Our Services
-                </h1>
-                <div class="ui horizontal divider"><i class="fa fa-user fa-white"></i></div>
-                <p class="ui centered  lead black">A Few Of The Services We Provide</p>
-            </div>
-        </div>
-        <div class="ui grid">
-            <div class="sixteen wide center aligned column card2">
-
-
-
-                        <i class="fa fa-shopping-basket fa-5x service-icon"></i>
-
-                    <div class="content">
-                        <div class="header black1">E-Commerce</div>
-                        <div class="description">
-                            <p><b>Today's retailers need to plan not only for their brick and mortar stores, but they must also have an exceptional e-commerce platform to engage their customers. Retail e-commerce sites are a vital method of getting more value from brick and mortar stores, chain inventory, and ongoing customer loyalty. Select the right platform to suit your needs, from multi-channel interaction, to marketing and branding design, is crucial in providing customers an integrated and attractive online shopping experience. Cybernetic Retail can assist you in the design, integration and implementation of an e-commerce site that is flexible, fast and consistent</b></p>
-                        </div>
-                    </div>
-
-
+            <div class="container">
+                <div class="col-md-6 card"><div class="row"><img class="img-rounded col-xs-offset-4 col-xs-4" src="img/images/mountain.jpg"></div><h3>Tim Delasantos</h3> <hr class="star-primary"><p>Founded Cybernetic Retail in February 2011. Before that, Tim was the CIO and GM of E-Commerce at Metro Park.</p></div>
+            <div class="col-md-6 card"><div class="row"><img class="img-rounded col-xs-offset-4 col-xs-4" src="img/images/nature.jpg"></div><h3>Lindsey Stephens</h3> <hr class="star-primary"><p>Lindsey is an experienced project manager, systems analyst, and developer. She specializes in implementing new systems, system integration, and creating custom solutions</p></div>
+            <div class="col-md-6 card"><div class="row"><img class="img-rounded col-xs-offset-4 col-xs-4" src="img/images/sunset16.jpg"></div><h3>Rick Ito</h3> <hr class="star-primary"><p>Bio stuff</p></div>
+            <div class="col-md-6 card"><div class="row"><img class="img-rounded col-xs-offset-4 col-xs-4" src="img/images/mountain.jpg"></div><h3>Rick Hicks</h3> <hr class="star-primary"><p>Bio stuff</p></div>
 
             </div>
 
+    </section>
 
+    <!-- Footer -->
+    <footer class="text-center">
 
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-xs-6 ">
+                            <h3>Locations</h3>
 
-            <div class="sixteen wide center aligned column card2">
-
-                    <i class="fa fa-code-fork fa-5x service-icon"></i>
-                    <div class="content">
-                        <div class="header black1">Omni-Channel</div>
-                        <div class="description"><p><b>
-                            Omni-channel retailers provide consumers the ability to experience an entire brand, not just a segment of a brand. By utilizing brick and mortar stores as extensions of your service offering, customers can research their purchases through other channels allowing consumers the ability to tailor their shopping experience for themselves. Omni-channel retailing is made more efficient through directed marketing campaigns designed to a consumer's sensibilities. Omni-channel platforms combine a mixture of physical and digital channels, transforming historical multichannel systems into a more innovative and unified customer experience </b></p></div>
-                        </b></p>
-                    </div>
-
-
-            </div>
-
-
-            <div class="sixteen wide center aligned column card2">
-
-
-                    <i class="fa fa-database fa-5x service-icon"></i>
-                    <div class="content">
-                        <div class="header black1">Warehouse Management Systems</div>
-                        <div class="description"><p><b>
-                            A superior warehouse management system is a key part of any effective supply chain, maximizing aspects from warehouse tracking systems to real-time product movement and streamlined order picking. Our consultants offer insights into increased inventory accuracy utilizing proven systems to manage changes in order volume, distribution points and complex fulfillment logistics. Any increased reliability can create long-lasting customer satisfaction. Let us help you develop a winning strategy and implement a successful solution.
-                        </b></p>
-                        </div>
-                    </div>
-
-
-            </div>
-
-
-
-
-
-
-
-            <div class="sixteen wide center aligned column card2">
-
-
-                    <i class="fa fa-dashboard fa-5x service-icon"></i>
-                    <div class="content">
-                        <div class="header black1">In-Store Dashboards</div>
-                        <div class="description"><p><b>
-                            In-store Dashboards are a powerful tool that enables organizations to gain better, faster insight into invaluable retail metrics and performance. They can be used to help analyze company data at various levels from product, to store, to region, and turn that data into real-time actionable decision making. Our dashboard options can be used in conjunction with performance reporting and business intelligence analysis to obtain tangible ROIs.
-                        </b></p>
-                        </div>
-                    </div>
-
-
-
-            </div>
-
-
-
-            <div class="sixteen wide center aligned column card2">
-
-                    <i class="fa fa-check-circle fa-5x service-icon"></i>
-                    <div class="content">
-                        <div class="header black1">Allocation And Replenishment Services</div>
-                        <div class="description"><p><b>
-                            In a market where retailers are compelled to adjust mid-stream to ensure product availability, efficient A&R allows retailers to adapt to changes across retail environments or store performances. A powerful allocation and replenishment solution allows companies to react to trends in the marketplace, while maintaining the ability to manage inventory on an ongoing basis without disruption to the rest of your chain. The Cybernetic Retail Allocation & Replenishment options support clients in defining A&R strategies, develop successful inventory methodologies and build optimized long-term solutions throughout your chain.
-                            </b></p><p><b>
-                            Optimized allocations result in achieving the financial targets and profitability goals set by the retail organization from a strategic standpoint.
-                        </b></p>
-                        </div>
-                    </div>
-
-
-            </div>
-
-
-            <div class="sixteen wide center aligned column card2">
-
-
-                    <i class="fa fa-pie-chart fa-5x service-icon"></i>
-                    <div class="content">
-                        <div class="header black1">Business Analysis and Reporting Solutions</div>
-                        <div class="description"><p><b>We draw upon our extensive retail experience to help develop and review strategic business recommendations. By looking at external and internal factors, market dynamics, and performance across all levels of your business, Cybernetic Retail is able to provide just the information you need to strengthen and improve your presence in the retail marketplace. The challenge in today's industry isn't lack of data, it's too much data. We help by identifying your company’s strengths, weaknesses and key opportunities and presenting the data in a useful and actionable format. Our goal is to work with our clients to ensure they have the most meaningful information available to assist in managing their company's future.</b></p></div>
-                    </div>
-
-
-            </div>
-
-
-
-        </div>
-
-
-    </div>
-</div>
-
-
-
-<div id="ourTeam" class="ui recent-works vertical segment">
-    <div class="ui stackable center aligned  page conatiner grid">
-        <div class="row">
-            <div class="eight wide centered column">
-                <h1 class="center aligned ui inverted header">
-                    Senior Team Members
-                </h1>
-                <div class="ui horizontal divider"><i class="fa fa-user fa-white"></i></div>
-                <p class="ui centered lead">Here Are Our Software and Retail Experts</p>
-            </div>
-        </div>
-        <div class="ui row">
-
-                <div class="four wide column">
-
-                    <div class="ui card" data-html="<div class='header black'>Owner/CEO</div>">
-                        <div class="image">
-                            <img src="images/mountain.jpg">
-                        </div>
-                        <div class="content">
-                            <div class="header black">Tim Delasantos</div>
-                            <div class="description"><p><b>
-                                Founded Cybernetic Retail in February 2011.  Before that, Tim was the CIO and GM of E-Commerce at Metro Park.</b></p>
-                            </div>
+                            <p>Sunnyvale, Ca -
+                            Huntsville, Al -
+                           Columbus, Oh
                         </div>
 
+
+                    <div class="col-xs-6">
+                        <h3>Contact</h3>
+
+                        <p><a>information@cyberneticretail.com</a> - <a>careers@cyberneticretail.com</a> - <a>support@cyberneticretail.com</a>
                     </div>
-
-                </div>
-
-
-
-                <div class="four wide column ">
-                    <div class="ui card" data-html="<div class='header black'>Sr. Business Analyst</div>">
-                        <div class="image">
-                            <img src="images/sunset16.jpg">
-                        </div>
-                        <div class="content">
-                            <div class="header black">Lindsey Stephens</div>
-                            <div class="description"><p><b>
-                                Lindsey is an experienced project manager, systems analyst, and developer. She specializes in implementing new systems, system integration, and creating custom solutions.
-                            </b></p>
-                            </div>
-                        </div>
                     </div>
-
-                </div>
-
-
-                <div class="four wide column">
-
-                    <div class="ui card" data-html="<div class='header black'>Sr. Software Engineer</div>">    <div class="image">
-                        <img src="images/nature.jpg">
+                    <div class="col-lg-12">
+                        Copyright &copy; Cybernetic Retail 2017
                     </div>
-                        <div class="content">
-                            <div class="header black">Rick Ito</div>
-                            <div class="description"><p><b>
-                                Bio stuff</b></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div id="footer" class="ui inverted footer vertical  center">
-    <div class="ui stackable center aligned page grid">
-        <div class="four column row">
-            <div class="column">
-                <h5 class="ui inverted header">Contact Us</h5>
-                <div class="ui inverted link list">
-                    <a class="item">information@cyberneticretail.com</a>
-                    <a class="item">careers@cyberneticretail.com</a>
-                    <a class="item">support@cyberneticretail.com</a>
                 </div>
             </div>
-
-
         </div>
+    </footer>
 
-
-
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
-</div>
-<script src="js/tether.min.js" type="text/javascript"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/Scrolling-nav.js" type="text/javascript"></script>
 
-<script src="./typed.js"></script>
-<script>
-    $(function(){
-        $(".element").typed({
-            strings: ["<div class='btn-aqua container' style=' font-size: 1em'>How can we make your retail systems more efficient and effective?</div>", "<div class='btn-aqua container' style=' font-size: 1em'>How can we help your business expand?</div>"],
-            typeSpeed: 50,loop: true, showCursor: false
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+    <script src="./typed.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: ["How can we make your retail systems more efficient and effective?", "How can we help your business expand?", "Cybernetic Retail"],
+                typeSpeed: 50,loop: false, showCursor: false
+            });
         });
-    });
-</script>
-
+    </script>
 </body>
 
 </html>
